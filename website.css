@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 body{
-    background-color: black;
-    color: white;
+    background-color: rgb(31, 30, 30);
+    color: rgb(243, 242, 242);
     font-family: 'Muli', sans-serif;
 }
 .header{
@@ -13,14 +13,14 @@ span{
     margin: 5px;
 }
 a{
-    color: white;
+    color:rgb(243, 242, 242);
     text-decoration: none;
 }
 a:visited{
-    color: white;
+    color: rgb(243, 242, 242);
 }
 a:hover{
-    color: red;
+    color: rgb(240, 135, 135);
 }
 header{
     display: flex;
