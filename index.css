@@ -6,14 +6,31 @@ body {
   flex-direction: column;
   justify-content: space-between;
   font-family: Helvetica;
+  /* padding: 0px 20px 0 20px; */
 }
+#craft {
+  background-color: rgb(165, 194, 80);
+}
+#craftheadder {
+  padding-bottom: 10px;
+}
+#info-body{
+  background-color: rgb(177, 167, 236);
 
+}
 header {
   align-self: stretch;
   display: flex;
   justify-content: space-between;
   padding: 30px;
   align-items: flex-end;
+}
+
+h1{
+  font-weight: normal;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 0px;
 }
 
 a {
@@ -41,6 +58,7 @@ a:hover {
 
 #content {
   display: flex;
+  flex-grow: 1;
   align-items: center;
   justify-content: center;
 }
@@ -89,7 +107,17 @@ a:hover {
   margin: 30px;
   align-self: stretch;
 }
+.big-gallery{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-content: center;
+  justify-content: cernter;
+}
+.gallery-row {
+  flex-direction: row;
 
+}
 .gallery_image {
   object-fit: contain;
   max-width: 100%;
@@ -123,3 +151,4 @@ a:hover {
     max-height: 50vh;
   }
 }
+ 
